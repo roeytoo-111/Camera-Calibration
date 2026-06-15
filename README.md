@@ -1,5 +1,5 @@
 
-# 🌡️ Thermal Camera Calibration Toolbox
+# Thermal Camera Calibration Toolbox
 
 This repository contains a specialized toolset for capturing calibration images and computing intrinsic camera matrices and distortion coefficients for **Thermal / Infrared Cameras** using OpenCV. 
 
@@ -7,7 +7,7 @@ Standard webcams process color data easily, but thermal sensors often present lo
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 camera-calibration-main/
@@ -24,7 +24,7 @@ camera-calibration-main/
 
 ---
 
-## 🛠️ Prerequisites & Installation
+## Prerequisites & Installation
 
 For optimal performance with thermal camera hardware interfaces, **running this project natively on Windows** (via PowerShell or Command Prompt) instead of WSL is highly recommended.
 
@@ -38,7 +38,7 @@ pip install opencv-python numpy
 
 ---
 
-## 🚀 Step-by-Step Workflow
+## Step-by-Step Workflow
 
 ### Step 1: Prepare a "Thermal-Visible" Target
 
@@ -75,7 +75,7 @@ The script parses every saved frame, refines corner pixels using sub-pixel inter
 
 ---
 
-## 📊 Outputs & Calibration Results
+## Outputs & Calibration Results
 
 Once processing wraps up successfully, your calculated metrics will be exported into the newly generated `output/` folder:
 
