@@ -1,6 +1,4 @@
-Here is the completely cleaned up, fully formatted version optimized for GitHub Markdown. You can click **"Copy"** on the code block below to paste it directly into your `README.md` file.
 
-```markdown
 # 🌡️ Thermal Camera Calibration Toolbox
 
 This repository contains a specialized toolset for capturing calibration images and computing intrinsic camera matrices and distortion coefficients for **Thermal / Infrared Cameras** using OpenCV. 
