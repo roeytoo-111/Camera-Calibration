@@ -79,7 +79,7 @@ The script parses every saved frame, refines corner pixels using sub-pixel inter
 
 ## Outputs & Calibration Results
 
-![Project Setup](distorted_vs._undistorted.png)
+![Project Setup](distorted vs. undistorted.png)
 
 Once processing wraps up successfully, your calculated metrics will be exported into the newly generated `output/` folder:
 
