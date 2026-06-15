@@ -42,9 +42,11 @@ pip install opencv-python numpy
 
 ### Step 1: Prepare a "Thermal-Visible" Target
 
+![Project Setup](setup.jpg)
+
 Standard paper chessboards are invisible to thermal sensors because the entire flat sheet rests at a uniform temperature. To generate a high-contrast edge grid, use one of the following methods:
 
-* **The Heat Absorber:** Blow a hairdryer across a thick cardboard printed chessboard for 30 seconds. The black squares will absorb thermal energy significantly faster than the white squares, creating a brief window of high contrast.
+* **The Heat Absorber:** Put the target under the sun for 10 min. The black squares will absorb thermal energy significantly faster than the white squares, creating a brief window of high contrast.
 * **The Reflective Aluminum Array:** Paste squares of dark electrical tape or heavy cardboard onto a sheet of flat aluminum or a baking tray. The metal reflects environmental temperatures ("cold"), while the tape emits normal ambient heat, creating a crisp, permanent thermal edge signature.
 
 ### Step 2: Capture Calibration Data
@@ -76,6 +78,8 @@ The script parses every saved frame, refines corner pixels using sub-pixel inter
 ---
 
 ## Outputs & Calibration Results
+
+![Project Setup](distorted_vs._undistorted.png)
 
 Once processing wraps up successfully, your calculated metrics will be exported into the newly generated `output/` folder:
 
