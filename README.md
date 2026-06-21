@@ -6,6 +6,11 @@ This repository contains a specialized toolset for capturing calibration images 
 Standard webcams process color data easily, but thermal sensors often present low native resolutions, blur from hardware upscaling, and an inability to see standard printed ink. This toolbox solves these issues using a dynamic **CLAHE (Contrast Limited Adaptive Histogram Equalization)** filter for edge enhancement and forces a **DirectShow** backend configuration to bypass buggy Windows Media Foundation interfaces.
 
 ---
+## camera params:  
+HIK UR camera
+Resolution:  640x512
+Measured FPS: 49.94  (120 frames in 2.40s)
+
 
 ## Project Structure
 
@@ -79,7 +84,7 @@ The script parses every saved frame, refines corner pixels using sub-pixel inter
 
 ## Outputs & Calibration Results
 
-![Project Setup](distorted_undistorted.png)
+![Project Setup](dist_undist.png)
 
 Once processing wraps up successfully, your calculated metrics will be exported into the newly generated `output/` folder:
 
