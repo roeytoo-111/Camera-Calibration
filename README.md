@@ -7,7 +7,7 @@ Standard webcams process color data easily, but thermal sensors often present lo
 
 ---
 ## Camera Params:  
-HIK UR camera.
+HIK IR camera.
 
 Resolution:  640x512. 
 
